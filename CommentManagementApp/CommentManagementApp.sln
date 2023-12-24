@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagementApp", "CommentManagementApp.csproj", "{3CAD0F97-9A78-4E0D-81B8-BFE9B288C528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagementApp.BusinessLayer", "..\CommentManagementApp.BusinessLayer\CommentManagementApp.BusinessLayer.csproj", "{6E1C426D-459F-4F24-B18E-32D7CED7A904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagementApp.DataLayer", "..\CommentManagementApp.DataLayer\CommentManagementApp.DataLayer.csproj", "{94D60689-A235-447C-A109-3ABA5CA568D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagementApp.Entities", "..\CommentManagementApp.Entities\CommentManagementApp.Entities.csproj", "{C3325D08-F95E-49C6-A725-A89DBA254A2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagementApp.Tests", "..\CommentManagementApp.Tests\CommentManagementApp.Tests.csproj", "{D7B2081E-00D1-4FAD-AF1B-DB2923C76EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CAD0F97-9A78-4E0D-81B8-BFE9B288C528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAD0F97-9A78-4E0D-81B8-BFE9B288C528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAD0F97-9A78-4E0D-81B8-BFE9B288C528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAD0F97-9A78-4E0D-81B8-BFE9B288C528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1C426D-459F-4F24-B18E-32D7CED7A904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1C426D-459F-4F24-B18E-32D7CED7A904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1C426D-459F-4F24-B18E-32D7CED7A904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1C426D-459F-4F24-B18E-32D7CED7A904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D60689-A235-447C-A109-3ABA5CA568D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D60689-A235-447C-A109-3ABA5CA568D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D60689-A235-447C-A109-3ABA5CA568D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D60689-A235-447C-A109-3ABA5CA568D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3325D08-F95E-49C6-A725-A89DBA254A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3325D08-F95E-49C6-A725-A89DBA254A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3325D08-F95E-49C6-A725-A89DBA254A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3325D08-F95E-49C6-A725-A89DBA254A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B2081E-00D1-4FAD-AF1B-DB2923C76EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B2081E-00D1-4FAD-AF1B-DB2923C76EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B2081E-00D1-4FAD-AF1B-DB2923C76EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B2081E-00D1-4FAD-AF1B-DB2923C76EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC5A395-3B7E-45D1-9653-C689D8822113}
+	EndGlobalSection
+EndGlobal
